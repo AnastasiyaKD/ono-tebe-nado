@@ -99,8 +99,7 @@
     display: block;
     line-height: 100%;
     letter-spacing: 60px;
-    width: 1340px;
-    padding: 20px 974px 240px;
+    padding: 20px 0 240px 974px ;
   }
   
   .no-letter-spacing {
