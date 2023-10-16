@@ -241,15 +241,11 @@
   }
   
   .about__column {
-   /*  display: grid;
-    grid-template-columns: 430px 2fr;*/
     display: flex;
     justify-content: end;
     align-items: start;
     gap: 25px;
-    width: 100%;
-   /* margin-left: 50px;   cдвиг при проверке*/
-    
+    width: 100%; 
   }
   
   .about__logo {
@@ -287,7 +283,6 @@
   .about__text {
     display: flex;
     flex-direction: column;
-    
     gap: 25px;
     color: rgb(0, 0, 0);
     font-size: 20px;
@@ -300,9 +295,6 @@
     display: flex;
     justify-content: space-between;
     padding: 3px 50px 90px;
-   
-    
-    
   }
   
   .footer__menu {
@@ -310,6 +302,7 @@
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
+    text-align: center;
     text-decoration-thickness: 1px;
     text-underline-offset: 3px;
   }
